@@ -8,4 +8,9 @@ public Etudiant(String nom) {
 	this.nom = nom;
 }
 
+@Override
+public String toString() {
+	return "Etudiant [nom=" + nom + "]";
+}
+
 }

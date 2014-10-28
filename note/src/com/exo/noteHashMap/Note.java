@@ -8,5 +8,9 @@ public Note(String matiere, float note) {
 	this.matiere = matiere;
 	this.note = note;
 }
+@Override
+public String toString() {
+	return "Note [matiere=" + matiere + ", note=" + note + "]";
+}
 
 }
